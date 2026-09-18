@@ -24,7 +24,7 @@ each solved kata gets its own folder, organized by difficulty (kyu rank):
     solution.py
 ```
 
-each kata has a `README.md` file which contains a link back to the original problem on Codewars (and sometimes a short paraphrase for context). solution files includes comments as well as a `if __name__ == "__main__":` guard to check if the file is being run directly or is being imported as a module.
+each kata has a `README.md` file which contains a link back to the original problem on Codewars and a short paraphrase for context. solution files includes comments as well as a `if __name__ == "__main__":` guard to check if the file is being run directly or is being imported as a module.
 
 if the file was being run directly it will fire the code block inside the if statement. if it was imported, the block gets skipped.
 
