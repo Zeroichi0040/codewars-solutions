@@ -8,3 +8,7 @@ def twice_as_old(dad_years_old, son_years_old):
         return dad_years_old - son_years_old
     else:
         return son_years_old - dad_years_old
+
+if __name__ == "__main__":
+    print(twice_as_old(30, 10)) # 10 years ago
+    print(twice_as_old(30, 20)) # 10 years in the future
