@@ -7,3 +7,7 @@ def digitize(n):
     for i in list:
         m.insert(0, i)
     return m
+
+if __name__ == "__main__":
+    print(digitize(1234))       # [4, 3, 2, 1]
+    print(digitize(4321))       # [1, 2, 3, 4]
